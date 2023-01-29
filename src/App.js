@@ -3,6 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
+import {Navbar, Footer, sidebar, ThemeSettings} from './components';
+import { Ecommerce,AdminBoard , Administrators , Adventures , Teams , Activities , Competitions,Leaderboard , Submissions } from "./pages";
+
 import './App.css'
 
 const App = () => {
@@ -40,7 +43,7 @@ const App = () => {
           <Routes>
             {/* Dashboard */}
             <Route path="/" element="Admin Board"/>
-            <Route path="/adminboard" element="Admin Board"/>
+            <Route path="/adminboard" element="AdminBoard"/>
 
             {/* Pages */}
             <Route path="/administrators" element="Administrators"/>
@@ -52,7 +55,7 @@ const App = () => {
             <Route path="/competitions" element="Competitions"/>
 
              {/* Charts */}
-             <Route path="/leaderboard" element="Leader board"/>
+             <Route path="/leaderboard" element="Leaderboard"/>
             <Route path="/submissions" element="Submissions"/>
           </Routes>
         </div>
