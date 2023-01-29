@@ -4,9 +4,11 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import {Navbar, Footer, sidebar, ThemeSettings} from './components';
-import { Ecommerce,AdminBoard , Administrators , Adventures , Teams , Activities , Competitions,Leaderboard , Submissions } from "./pages";
+import { AdminBoard , Administrators , Adventures , Teams ,Seasons, Challenges, Stages, Activities , Competitions,Leaderboard , Submissions } from "./pages";
+import {Ecommerce , Orders, Calenders, Employees, Stacked, Pyramid, Customers, Kanban, Area, Bar, Pis, Financial, ColorPicker, ColorMapping, Editor} from './pages';
 
 import './App.css'
+import { fromJSON } from 'postcss';
 
 const App = () => {
   const activeMenu = false ;
@@ -45,18 +47,20 @@ const App = () => {
             <Route path="/" element="Admin Board"/>
             <Route path="/adminboard" element="AdminBoard"/>
 
-            {/* Pages */}
+            {/* People */}
             <Route path="/administrators" element="Administrators"/>
             <Route path="/adventures" element="Adventures"/>
             <Route path="/teams" element="Teams"/>
 
-             {/* Apps */}
-             <Route path="/activities" element="Activities"/>
-            <Route path="/competitions" element="Competitions"/>
+             {/* Competitions */}
+             <Route path="/seasons" element="Seasons"/>
+            <Route path="/challenges" element="Challenges"/>
+            <Route path="/stages" element="Stages"/>
 
-             {/* Charts */}
+             {/* board */}
              <Route path="/leaderboard" element="Leaderboard"/>
             <Route path="/submissions" element="Submissions"/>
+            <Route path="/activities" element="Activities"/>
           </Routes>
         </div>
         </div>
