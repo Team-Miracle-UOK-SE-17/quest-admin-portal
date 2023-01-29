@@ -36,6 +36,26 @@ const App = () => {
             navbar            
           </div>
         </div>
+        <div>
+          <Routes>
+            {/* Dashboard */}
+            <Route path="/" element="Admin Board"/>
+            <Route path="/adminboard" element="Admin Board"/>
+
+            {/* Pages */}
+            <Route path="/administrators" element="Administrators"/>
+            <Route path="/adventures" element="Adventures"/>
+            <Route path="/teams" element="Teams"/>
+
+             {/* Apps */}
+             <Route path="/activities" element="Activities"/>
+            <Route path="/competitions" element="Competitions"/>
+
+             {/* Charts */}
+             <Route path="/leaderboard" element="Leader board"/>
+            <Route path="/submissions" element="Submissions"/>
+          </Routes>
+        </div>
         </div>
       </BrowserRouter>
     </div>
