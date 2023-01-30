@@ -1,15 +1,18 @@
 import React from 'react';
-import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
+import { AiOutlineCalendar, AiOutlineFileDone, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock, AiOutlineTeam } from 'react-icons/ai';
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
 import { BiColorFill } from 'react-icons/bi';
+import { RxDashboard } from "react-icons/rx";
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
-import { MdOutlineSupervisorAccount } from 'react-icons/md';
+import { MdOutlineSupervisorAccount,MdOutlineLeaderboard } from 'react-icons/md';
 import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
+import {SiActigraph} from 'react-icons/si';
+import { ImStack } from "react-icons/im";
 import avatar from './avatar.jpg';
 import avatar2 from './avatar2.jpg';
 import avatar3 from './avatar3.png';
@@ -474,8 +477,8 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
-        name: 'ecommerce',
-        icon: <FiShoppingBag />,
+        name: 'adminBoard',
+        icon: <RxDashboard />,
       },
     ],
   },
@@ -484,16 +487,16 @@ export const links = [
     title: 'People',
     links: [
       {
-        name: 'orders',
-        icon: <AiOutlineShoppingCart />,
-      },
-      {
-        name: 'employees',
+        name: 'administrators',
         icon: <IoMdContacts />,
       },
       {
-        name: 'customers',
+        name: 'adventures',
         icon: <RiContactsLine />,
+      },
+      {
+        name: 'teams',
+        icon: <AiOutlineTeam />,
       },
     ],
   },
@@ -501,20 +504,16 @@ export const links = [
     title: 'Competitions',
     links: [
       {
-        name: 'calendar',
+        name: 'seasons',
         icon: <AiOutlineCalendar />,
       },
       {
-        name: 'kanban',
+        name: 'challenges',
         icon: <BsKanban />,
       },
       {
-        name: 'editor',
-        icon: <FiEdit />,
-      },
-      {
-        name: 'color-picker',
-        icon: <BiColorFill />,
+        name: 'stages',
+        icon: <ImStack />,
       },
     ],
   },
@@ -522,38 +521,38 @@ export const links = [
     title: 'Leading',
     links: [
       {
-        name: 'line',
-        icon: <AiOutlineStock />,
+        name: 'activities',
+        icon: <SiActigraph />,
       },
       {
-        name: 'area',
-        icon: <AiOutlineAreaChart />,
+        name: 'leaderboard',
+        icon: <MdOutlineLeaderboard />,
       },
 
       {
-        name: 'bar',
-        icon: <AiOutlineBarChart />,
+        name: 'submissions',
+        icon: <AiOutlineFileDone />,
       },
-      {
-        name: 'pie',
-        icon: <FiPieChart />,
-      },
-      {
-        name: 'financial',
-        icon: <RiStockLine />,
-      },
-      {
-        name: 'color-mapping',
-        icon: <BsBarChart />,
-      },
-      {
-        name: 'pyramid',
-        icon: <GiLouvrePyramid />,
-      },
-      {
-        name: 'stacked',
-        icon: <AiOutlineBarChart />,
-      },
+      // {
+      //   name: 'pie',
+      //   icon: <FiPieChart />,
+      // },
+      // {
+      //   name: 'financial',
+      //   icon: <RiStockLine />,
+      // },
+      // {
+      //   name: 'color-mapping',
+      //   icon: <BsBarChart />,
+      // },
+      // {
+      //   name: 'pyramid',
+      //   icon: <GiLouvrePyramid />,
+      // },
+      // {
+      //   name: 'stacked',
+      //   icon: <AiOutlineBarChart />,
+      // },
     ],
   },
 ];
