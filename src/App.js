@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import {Navbar, Footer, sidebar, ThemeSettings} from './components';
-import { AdminBoard , Administrators , Adventures , Teams ,Seasons, Challenges, Stages, Activities , Competitions,Leaderboard , Submissions } from "./pages";
-import {Ecommerce , Orders, Calenders, Employees, Stacked, Pyramid, Customers, Kanban, Area, Bar, Pis, Financial, ColorPicker, ColorMapping, Editor} from './pages';
+import {Navbar, Footer, Sidebar, ThemeSettings} from './components';
+import { AdminBoard , Administrators , Adventures , Teams ,Seasons, Challenges, Stages, Activities , LeaderBoard,  Competitions , Submissions } from "./pages";
+import {Ecommerce , Orders, Calenders, Employees, Stacked, Pyramid, Customers, Kanban, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor} from './pages';
 
 import './App.css'
 import { fromJSON } from 'postcss';
@@ -26,11 +26,11 @@ const App = () => {
           </div>
           {activeMenu ? (
             <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white"> 
-              sidebar
+              <Sidebar/>
             </div>
           ) : (
             <div className='w-0 dark:bg-secondary-dark-bg'>
-              sidebar
+              <Sidebar/>
             </div>
           )
         }
@@ -38,29 +38,29 @@ const App = () => {
           `dark:bg-main-bg bg-main-bg min-h-screen w-full ${ activeMenu ? 'md:ml-72' : 'flex-2'}` 
          }>
           <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
-            navbar            
+           <Navbar/>           
           </div>
         </div>
         <div>
           <Routes>
             {/* Dashboard */}
-            <Route path="/" element="Admin Board"/>
-            <Route path="/adminboard" element="AdminBoard"/>
+            <Route path="/" element={<AdminBoard/>}/>
+            <Route path="/adminBoard" element={<AdminBoard/>}/>
 
             {/* People */}
-            <Route path="/administrators" element="Administrators"/>
-            <Route path="/adventures" element="Adventures"/>
-            <Route path="/teams" element="Teams"/>
+            <Route path="/administrators" element={<Administrators/>}/>
+            <Route path="/adventures" element={<Adventures/>}/>
+            <Route path="/teams" element={<Teams/>}/>
 
              {/* Competitions */}
-             <Route path="/seasons" element="Seasons"/>
-            <Route path="/challenges" element="Challenges"/>
-            <Route path="/stages" element="Stages"/>
+             <Route path="/seasons" element={<Seasons/>}/>
+            <Route path="/challenges" element={<Challenges/>}/>
+            <Route path="/stages" element={<Stages/>}/>
 
              {/* board */}
-             <Route path="/leaderboard" element="Leaderboard"/>
-            <Route path="/submissions" element="Submissions"/>
-            <Route path="/activities" element="Activities"/>
+             <Route path="/leaderBoard" element={<LeaderBoard/>}/>
+            <Route path="/submissions" element={<Submissions/>}/>
+            <Route path="/activities" element={<Activities/>}/>
           </Routes>
         </div>
         </div>
