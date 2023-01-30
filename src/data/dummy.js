@@ -481,7 +481,7 @@ export const links = [
   },
 
   {
-    title: 'Pages',
+    title: 'People',
     links: [
       {
         name: 'orders',
@@ -498,7 +498,7 @@ export const links = [
     ],
   },
   {
-    title: 'Apps',
+    title: 'Competitions',
     links: [
       {
         name: 'calendar',
@@ -519,7 +519,7 @@ export const links = [
     ],
   },
   {
-    title: 'Charts',
+    title: 'Leading',
     links: [
       {
         name: 'line',
