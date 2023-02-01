@@ -1,4 +1,3 @@
-
 module.exports = {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
     darkMode: 'class',
@@ -41,7 +40,7 @@ module.exports = {
         },
         backgroundImage: {
           'hero-pattern':
-             "url('https://drive.google.com/file/d/1ny_6hNLESeb0yjk0iIrexJsq6WCZTBxD/view?usp=sharing')",
+            "url('https://i.ibb.co/MkvLDfb/Rectangle-4389.png')",
         },
       },
     },
