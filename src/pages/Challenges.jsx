@@ -1,9 +1,25 @@
-import React from 'react'
 
-const Challenges = () => {
-  return (
-    <div>Challenges</div>
-  )
-}
+import React from 'react';
+import { KanbanComponent, ColumnsDirective, ColumnDirective } from '@syncfusion/ej2-react-kanban';
 
-export default Challenges
+import { challengesData, kanbanGrid } from '../data/dummy';
+import { Header } from '../components';
+
+const Challenges = () => (
+  <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
+    <Header category="App" title="Challenges" />
+    <KanbanComponent
+      id="kanban"
+      keyField="Status"
+      dataSource={challengesData}
+      cardSettings={{ contentField: 'Summary', headerField: 'Id' }}
+    >
+      <ColumnsDirective>
+        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+        {kanbanGrid.map((item, index) => <ColumnDirective key={index} {...item} />)}
+      </ColumnsDirective>
+    </KanbanComponent>
+  </div>
+);
+
+export default Challenges;
