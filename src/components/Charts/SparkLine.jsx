@@ -16,8 +16,8 @@ class SparkLine extends React.PureComponent {
         border={{ color: currentColor, width: 2 }}
         tooltipSettings={{
           visible: true,
-          // eslint-disable-next-line no-template-curly-in-string
-          format: '${x} : data ${yval}',
+
+          format: '${x} : data ${y}',
           trackLineSettings: {
             visible: true,
           },
@@ -25,7 +25,7 @@ class SparkLine extends React.PureComponent {
         markerSettings={{ visible: ['All'], size: 2.5, fill: currentColor }}
         dataSource={data}
         xName="x"
-        yName="yval"
+        yName="y"
         type={type}
       >
         <Inject services={[SparklineTooltip]} />
