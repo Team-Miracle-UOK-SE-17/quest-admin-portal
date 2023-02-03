@@ -25,6 +25,14 @@ import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
 import product8 from './product8.jpg';
+import t1 from './t1.png';
+import t2 from './t2.png';
+import t3 from './t3.png';
+import t4 from './t4.png';
+import t5 from './t5.png';
+import t6 from './t6.png';
+import t7 from './t7.png';
+import t8 from './t8.png';
 
 export const gridOrderImage = (props) => (
   <div>
@@ -866,7 +874,7 @@ export const userProfileData = [
 
 export const ordersGrid = [
   {
-    headerText: 'Image',
+    headerText: 'Team Logo',
     template: gridOrderImage,
     textAlign: 'Center',
     width: '120',
@@ -883,29 +891,25 @@ export const ordersGrid = [
     width: '150',
     textAlign: 'Center',
   },
+  { field: 'NoOfMembers',
+  headerText: 'No. of Members',
+  width: '100',
+  textAlign: 'Center',
+},
   { field: 'Date',
   headerText: 'Date',
   width: '150',
   textAlign: 'Center',
 },
-  {
-    headerText: 'Status',
-    template: gridOrderStatus,
-    field: 'OrderItems',
-    textAlign: 'Center',
-    width: '120',
-  },
+{ field: 'Members',
+headerText: 'Members',
+width: '200',
+textAlign: 'Center',
+},
   {
     field: 'OrderID',
-    headerText: 'ID',
+    headerText: 'Team ID',
     width: '120',
-    textAlign: 'Center',
-  },
-
-  {
-    field: 'Location',
-    headerText: 'Season',
-    width: '150',
     textAlign: 'Center',
   },
 ];
@@ -1955,11 +1959,13 @@ export const teamsData = [
     LeaderName: 'Vinet',
     Date: '11/02/2021',
     TeamName: 'Freshes',
+    NoOfMembers: 2,
+    Members: 'Vinet, Carson Darrin',
     Location: 'Forest',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
-      product6,
+      t1,
   },
   {
     OrderID: 345653,
@@ -1967,10 +1973,12 @@ export const teamsData = [
     Date: '21/12/2022',
     TeamName: 'Scotches',
     Location: 'Under Sea',
+    NoOfMembers: 3,
+    Members: 'Vinet, Carson Darrin, Penjani',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
-      product5,
+      t2,
   },
   {
     OrderID: 390457,
@@ -1978,239 +1986,77 @@ export const teamsData = [
     Date: '01/02/2022',
     TeamName: 'Gucci Gang',
     Location: 'Sky',
+    NoOfMembers: 2,
+    Members: 'Vinet, Carson Darrin',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
-      product7,
+      t3,
   },
   {
     OrderID: 893486,
     LeaderName: 'Anika Viseer',
     Date: '22/08/2021',
     TeamName: 'Night Lamp',
+    NoOfMembers: 4,
+    Members: 'Vinet, Carson Darrin, Penjani, Anika Viseer',
     Location: 'Solo',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      product4,
+      t4,
   },
   {
     OrderID: 748975,
     LeaderName: 'Miron Vitold',
     Date: '11/06/2021',
     TeamName: 'Heapies',
+    NoOfMembers: 2,
+    Members: 'Vinet, Carson Darrin',
     Location: 'Ballon',
     Status: 'rejected',
     StatusBg: 'red',
     ProductImage:
-    product1,
+    t5,
   },
   {
     OrderID: 94757,
     LeaderName: 'Omar Darobe',
     Date: '16/10/2021',
+    NoOfMembers: 3,
+    Members: 'Vinet, Carson Darrin, Penjani',
     TeamName: 'Rouge',
     Location: 'Missing',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      product2,
+      t6,
   },
   {
     OrderID: 944895,
     LeaderName: 'Lulia albu',
     Date: '01/02/2021',
     TeamName: 'cares',
+    NoOfMembers: 2,
+    Members: 'Vinet, Carson Darrin',
     Location: 'water',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
-      product3,
+      t7,
   },
   {
     OrderID: 845954,
     LeaderName: 'Penjani',
     Date: '05/10/2021',
     TeamName: 'advenies',
+    NoOfMembers: 3,
+    Members: 'Vinet, Carson Darrin, Penjani',
     Location: 'Nuckles',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
-      product4,
-  },{
-    OrderID: 10248,
-    LeaderName: 'Vinet',
-    Date: '11/02/2021',
-    TeamName: 'Freshes',
-    Location: 'Forest',
-    Status: 'pending',
-    StatusBg: '#FB9678',
-    ProductImage:
-      product6,
-  },
-  {
-    OrderID: 345653,
-    LeaderName: 'Carson Darrin',
-    Date: '21/12/2022',
-    TeamName: 'Scotches',
-    Location: 'Under Sea',
-    Status: 'complete',
-    StatusBg: '#8BE78B',
-    ProductImage:
-      product5,
-  },
-  {
-    OrderID: 390457,
-    LeaderName: 'Fran Perez',
-    Date: '01/02/2022',
-    TeamName: 'Gucci Gang',
-    Location: 'Sky',
-    Status: 'active',
-    StatusBg: '#03C9D7',
-    ProductImage:
-      product7,
-  },
-  {
-    OrderID: 893486,
-    LeaderName: 'Anika Viseer',
-    Date: '22/08/2021',
-    TeamName: 'Night Lamp',
-    Location: 'Solo',
-    Status: 'canceled',
-    StatusBg: '#FF5C8E',
-    ProductImage:
-      product4,
-  },
-  {
-    OrderID: 748975,
-    LeaderName: 'Miron Vitold',
-    Date: '11/06/2021',
-    TeamName: 'Heapies',
-    Location: 'Ballon',
-    Status: 'rejected',
-    StatusBg: 'red',
-    ProductImage:
-    product1,
-  },
-  {
-    OrderID: 94757,
-    LeaderName: 'Omar Darobe',
-    Date: '16/10/2021',
-    TeamName: 'Rouge',
-    Location: 'Missing',
-    Status: 'canceled',
-    StatusBg: '#FF5C8E',
-    ProductImage:
-      product2,
-  },
-  {
-    OrderID: 944895,
-    LeaderName: 'Lulia albu',
-    Date: '01/02/2021',
-    TeamName: 'cares',
-    Location: 'water',
-    Status: 'active',
-    StatusBg: '#03C9D7',
-    ProductImage:
-      product3,
-  },
-  {
-    OrderID: 845954,
-    LeaderName: 'Penjani',
-    Date: '05/10/2021',
-    TeamName: 'advenies',
-    Location: 'USA',
-    Status: 'complete',
-    StatusBg: '#8BE78B',
-    ProductImage:
-      product4,
-  },{
-    OrderID: 10248,
-    LeaderName: 'Vinet',
-    Date: '11/02/2021',
-    TeamName: 'Freshes',
-    Location: 'Forest',
-    Status: 'pending',
-    StatusBg: '#FB9678',
-    ProductImage:
-      product6,
-  },
-  {
-    OrderID: 345653,
-    LeaderName: 'Carson Darrin',
-    Date: '21/12/2022',
-    TeamName: 'Scotches',
-    Location: 'Under Sea',
-    Status: 'complete',
-    StatusBg: '#8BE78B',
-    ProductImage:
-      product5,
-  },
-  {
-    OrderID: 390457,
-    LeaderName: 'Fran Perez',
-    Date: '01/02/2022',
-    TeamName: 'Gucci Gang',
-    Location: 'Sky',
-    Status: 'active',
-    StatusBg: '#03C9D7',
-    ProductImage:
-      product7,
-  },
-  {
-    OrderID: 893486,
-    LeaderName: 'Anika Viseer',
-    Date: '22/08/2021',
-    TeamName: 'Night Lamp',
-    Location: 'Solo',
-    Status: 'canceled',
-    StatusBg: '#FF5C8E',
-    ProductImage:
-      product4,
-  },
-  {
-    OrderID: 748975,
-    LeaderName: 'Miron Vitold',
-    Date: '11/06/2021',
-    TeamName: 'Heapies',
-    Location: 'Ballon',
-    Status: 'rejected',
-    StatusBg: 'red',
-    ProductImage:
-    product1,
-  },
-  {
-    OrderID: 94757,
-    LeaderName: 'Omar Darobe',
-    Date: '16/10/2021',
-    TeamName: 'Rouge',
-    Location: 'Missing',
-    Status: 'canceled',
-    StatusBg: '#FF5C8E',
-    ProductImage:
-      product2,
-  },
-  {
-    OrderID: 944895,
-    LeaderName: 'Lulia albu',
-    Date: '01/02/2021',
-    TeamName: 'cares',
-    Location: 'water',
-    Status: 'active',
-    StatusBg: '#03C9D7',
-    ProductImage:
-      product3,
-  },
-  {
-    OrderID: 845954,
-    LeaderName: 'Penjani',
-    Date: '05/10/2021',
-    TeamName: 'advenies',
-    Location: 'USA',
-    Status: 'complete',
-    StatusBg: '#8BE78B',
-    ProductImage:
-      product4,
+      t8,
   },
 ];
 
