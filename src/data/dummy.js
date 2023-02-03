@@ -618,40 +618,31 @@ export const chatData = [
 export const earningData = [
   {
     icon: <MdOutlineSupervisorAccount />,
-    amount: '39,354',
+    amount: '14',
     percentage: '-4%',
-    title: 'Customers',
+    title: 'Administrators',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
     pcColor: 'red-600',
   },
   {
-    icon: <BsBoxSeam />,
-    amount: '4,396',
+    icon: <MdOutlineSupervisorAccount />,
+    amount: '102',
     percentage: '+23%',
-    title: 'Products',
+    title: 'Adventures',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
     pcColor: 'green-600',
   },
   {
-    icon: <FiBarChart />,
-    amount: '423,39',
+    icon: <MdOutlineSupervisorAccount />,
+    amount: '08',
     percentage: '+38%',
-    title: 'Sales',
+    title: 'Teams',
     iconColor: 'rgb(228, 106, 118)',
     iconBg: 'rgb(255, 244, 229)',
 
     pcColor: 'green-600',
-  },
-  {
-    icon: <HiOutlineRefresh />,
-    amount: '39,354',
-    percentage: '-12%',
-    title: 'Refunds',
-    iconColor: 'rgb(0, 194, 146)',
-    iconBg: 'rgb(235, 250, 242)',
-    pcColor: 'red-600',
   },
 ];
 
@@ -708,25 +699,25 @@ export const recentTransactions = [
 
 export const weeklyStats = [
   {
-    icon: <FiShoppingCart />,
-    amount: '-$560',
-    title: 'Top Sales',
+    icon: <MdOutlineSupervisorAccount />,
+    
+    title: 'Best Adventure',
     desc: 'Johnathan Doe',
     iconBg: '#FB9678',
     pcColor: 'red-600',
   },
   {
     icon: <FiStar />,
-    amount: '-$560',
-    title: 'Best Seller',
+    
+    title: 'Best Team',
     desc: 'MaterialPro Admin',
     iconBg: 'rgb(254, 201, 15)',
     pcColor: 'red-600',
   },
   {
-    icon: <BsChatLeft />,
-    amount: '+$560',
-    title: 'Most Commented',
+    icon: <MdOutlineSupervisorAccount />,
+    
+    title: 'Upcoming Hero',
     desc: 'Ample Admin',
     iconBg: '#00C292',
     pcColor: 'green-600',
@@ -775,25 +766,18 @@ export const productsPerformance = [
 export const medicalproBranding = {
   data: [
     {
-      title: 'Due Date',
+      title: 'For the Date',
       desc: 'Oct 23, 2021',
     },
-    {
-      title: 'Budget',
-      desc: '$98,500',
-    },
-    {
-      title: 'Expense',
-      desc: '$63,000',
-    },
+  
   ],
   teams: [
     {
-      name: 'Bootstrap',
+      name: 'Freshie',
       color: 'orange',
     },
     {
-      name: 'Angular',
+      name: 'Oscar',
       color: '#FB9678',
     },
   ],
