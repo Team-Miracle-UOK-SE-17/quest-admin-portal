@@ -3312,7 +3312,7 @@ export const challengesData = [
 
 export const stagesData = [
   {
-    Id: 'Season 3',
+    Id: 'Stage 1',
     Title: 'Task - 29001',
     Status: 'Open',
     Summary: 'Winter Season Challenge',
@@ -3326,7 +3326,7 @@ export const stagesData = [
     ClassName: 'e-story, e-low, e-nancy-davloio',
   },
   {
-    Id: 'Season 2',
+    Id: 'Stage 2',
     Title: 'Task - 29002',
     Status: 'InProgress',
     Summary: 'Rainy Season Challenge',
@@ -3340,7 +3340,7 @@ export const stagesData = [
     ClassName: 'e-improvement, e-normal, e-andrew-fuller',
   },
   {
-    Id: 'Season 1',
+    Id: 'Stage 1',
     Title: 'Task - 29003',
     Status: 'Open',
     Summary: 'Rainy Season Challenge.',
@@ -3354,7 +3354,7 @@ export const stagesData = [
     ClassName: 'e-others, e-critical, e-janet-leverling',
   },
   {
-    Id: 'Season 4',
+    Id: 'Stage 4',
     Title: 'Task - 29004',
     Status: 'InProgress',
     Summary: 'Fall Season Challenge.',
@@ -3368,7 +3368,7 @@ export const stagesData = [
     ClassName: 'e-bug, e-release, e-janet-leverling',
   },
   {
-    Id: 'Season 5',
+    Id: 'Stage 5',
     Title: 'Task - 29005',
     Status: 'Review',
     Summary: 'Halloween Season Challenge',
@@ -3382,7 +3382,7 @@ export const stagesData = [
     ClassName: 'e-bug, e-low, e-steven-walker',
   },
   {
-    Id: 'Season 6',
+    Id: 'Stage 6',
     Title: 'Task - 29007',
     Status: 'Validate',
     Summary: 'Spring Season Challenge',
@@ -3396,7 +3396,7 @@ export const stagesData = [
     ClassName: 'e-improvement, e-low, e-robert-king',
   },
   {
-    Id: 'Season 7',
+    Id: 'Stage 7',
     Title: 'Task - 29009',
     Status: 'Review',
     Summary: 'Santa Claus Season Challenge',
@@ -3410,7 +3410,7 @@ export const stagesData = [
     ClassName: 'e-bug, e-release, e-nancy-davloio',
   },
   {
-    Id: 'Season 8',
+    Id: 'Stage 8',
     Title: 'Task - 29010',
     Status: 'Close',
     Summary: 'Safari Season Challenge',
@@ -3424,7 +3424,7 @@ export const stagesData = [
     ClassName: 'e-story, e-low, e-margaret-hamilt',
   },
   {
-    Id: 'Season 9',
+    Id: 'Stage 9',
     Title: 'Task - 29011',
     Status: 'Validate',
     Summary: 'Army Hero Season Challenge',
@@ -3438,7 +3438,7 @@ export const stagesData = [
     ClassName: 'e-story, e-high, e-steven-walker',
   },
   {
-    Id: 'Season 10',
+    Id: 'Stage 10',
     Title: 'Task - 29015',
     Status: 'Open',
     Summary: 'Under Water Season Challenge',
@@ -3452,7 +3452,7 @@ export const stagesData = [
     ClassName: 'e-story, e-high, e-margaret-hamilt',
   },
   {
-    Id: 'Season 11',
+    Id: 'Stage 11',
     Title: 'Task - 29016',
     Status: 'InProgress',
     Summary: 'Under Earth Season Challenge',
@@ -3466,7 +3466,7 @@ export const stagesData = [
     ClassName: 'e-bug, e-critical, e-janet-leverling',
   },
   {
-    Id: 'Season 12',
+    Id: 'Stage 12',
     Title: 'Task - 29017',
     Status: 'Review',
     Summary: 'Spring Season Challenge',
@@ -3480,7 +3480,7 @@ export const stagesData = [
     ClassName: 'e-story, e-normal, e-janet-leverling',
   },
   {
-    Id: 'Season 13',
+    Id: 'Stage 13',
     Title: 'Task - 29018',
     Status: 'Close',
     Summary: 'Rainy Season Challenge.',
@@ -3494,7 +3494,7 @@ export const stagesData = [
     ClassName: 'e-story, e-release, e-andrew-fuller',
   },
   {
-    Id: 'Season 14',
+    Id: 'Stage 14',
     Title: 'Task - 29019',
     Status: 'Validate',
     Summary: 'Army Hero Season Challenge',
@@ -3508,7 +3508,7 @@ export const stagesData = [
     ClassName: 'e-story, e-low, e-margaret-hamilt',
   },
   {
-    Id: 'Season 15',
+    Id: 'Stage 15',
     Title: 'Task - 29020',
     Status: 'Close',
     Summary: 'Under Water Season Challenge',
@@ -3522,7 +3522,7 @@ export const stagesData = [
     ClassName: 'e-story, e-high, e-margaret-hamilt',
   },
   {
-    Id: 'Season 16',
+    Id: 'Stage 16',
     Title: 'Task - 29021',
     Status: 'Close',
     Summary: 'Under Earth Season Challenge',
@@ -3536,7 +3536,7 @@ export const stagesData = [
     ClassName: 'e-others, e-release, e-steven-walker',
   },
   {
-    Id: 'Season 17',
+    Id: 'Stage 17',
     Title: 'Task - 29022',
     Status: 'Close',
     Summary: 'Safari Season Challenge',
@@ -3550,7 +3550,7 @@ export const stagesData = [
     ClassName: 'e-story, e-release, e-janet-leverling',
   },
   {
-    Id: 'Season 18',
+    Id: 'Stage 18',
     Title: 'Task - 29023',
     Status: 'Validate',
     Summary: 'Santa Claus Season Challenge',
@@ -3564,7 +3564,7 @@ export const stagesData = [
     ClassName: 'e-story, e-critical, e-nancy-davloio',
   },
   {
-    Id: 'Season 19',
+    Id: 'Stage 19',
     Title: 'Task - 29024',
     Status: 'Review',
     Summary: 'Spring Season Challenge',
@@ -3578,7 +3578,7 @@ export const stagesData = [
     ClassName: 'e-story, e-normal, e-nancy-davloio',
   },
   {
-    Id: 'Season 20',
+    Id: 'Stage 20',
     Title: 'Task - 29025',
     Status: 'Open',
     Summary: 'Spring Season Challenge',
@@ -3592,7 +3592,7 @@ export const stagesData = [
     ClassName: 'e-improvement, e-low, e-andrew-fuller',
   },
   {
-    Id: 'Season 21',
+    Id: 'Stage 21',
     Title: 'Task - 29026',
     Status: 'InProgress',
     Summary: 'Halloween Season Challenge',
@@ -3606,7 +3606,7 @@ export const stagesData = [
     ClassName: 'e-epic, e-high, e-nancy-davloio',
   },
   {
-    Id: 'Season 22',
+    Id: 'Stage 22',
     Title: 'Task - 29027',
     Status: 'Open',
     Summary: 'Winter Season Challenge',
@@ -3620,7 +3620,7 @@ export const stagesData = [
     ClassName: 'e-others, e-high, e-steven-walker',
   },
   {
-    Id: 'Season 23',
+    Id: 'Stage 23',
     Title: 'Task - 29029',
     Status: 'Review',
     Summary: 'Rainy Season Challenge',
@@ -3634,7 +3634,7 @@ export const stagesData = [
     ClassName: 'e-bug, e-low, e-janet-leverling',
   },
   {
-    Id: 'Season 24',
+    Id: 'Stage 24',
     Title: 'Task - 29030',
     Status: 'Testing',
     Summary: 'Rainy Season Challenge',
@@ -3648,10 +3648,10 @@ export const stagesData = [
     ClassName: 'e-bug, e-critical, e-steven-walker',
   },
   {
-    Id: 'Season 25',
+    Id: 'Stage 25',
     Title: 'Task - 29031',
     Status: 'Testing',
-    Summary: 'Fall Season Challenge.',
+    Summary: 'Fall Stage Challenge.',
     Type: 'Bug',
     Priority: 'Critical',
     Tags: 'Fix,Safari',
